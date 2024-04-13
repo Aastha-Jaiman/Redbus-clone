@@ -76,7 +76,7 @@ header .ticket-list li:last-child:hover{
 #herobanner{
     width: 100%;
     height: 520px;
-    background-image: url(../REDBUS/HeroImageV2_C.png);
+    background-image: url(REDBUS/HeroImageV2_C.png);
     background-size: cover;
 }
 .overlay{
@@ -413,13 +413,13 @@ h2{
 }
 .ticket-left{
     width: 564px;
-    background-image: url(../REDBUS/aboutUsImg.svg);
+    background-image: url(REDBUS/aboutUsImg.svg);
     position: relative;
     /* background-repeat: no-repeat; */
     background-size: cover;
 }
 .enjoy{
-    background-image: url(../REDBUS/appInstallbg.svg);
+    background-image: url(REDBUS/appInstallbg.svg);
     display: flex;
     border-radius: 48px;
     padding: 32px;
@@ -520,7 +520,7 @@ li{
     padding-top: 10px;
 }
 .primo{
-    background-image: url(../REDBUS/primoHome.svg);
+    background-image: url(REDBUS/primoHome.svg);
     height: 552px;
     width: 1200px;
     border-radius: 40px;
@@ -692,7 +692,7 @@ li{
    background-repeat: no-repeat;
    background-position: 50%;
    background-size: contain;
-   background-image: url(../REDBUS/redDeals_bg.webp);
+   background-image: url(REDBUS/redDeals_bg.webp);
 }
 .exclusive-deal{
     margin-bottom: 16px;
@@ -886,7 +886,7 @@ header .ticket-list2 li:last-child{
 #train-banner{
     width: 100%;
     height: 630px;
-    background-image: url(../REDBUS2/main-background.png);
+    background-image: url(REDBUS2/main-background.png);
     background-size: cover;  
     display: flex;
     flex-direction: column;
