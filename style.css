@@ -1302,9 +1302,8 @@ span{
     border-radius: 20px;
     opacity: 0;
     visibility: hidden;
+    transition: 0.5s;
 }
-
-
 .Account-section:hover .account-tab{
     opacity: 1;
     visibility: visible;
