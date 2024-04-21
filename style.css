@@ -177,13 +177,13 @@ header .ticket-list li:last-child:hover{
     height: 40px;
     background: rgb(255, 255, 255);
     color: rgb(107, 107, 107);
-    border: 1px solid rgb(224, 224, 224);
-    border-radius: 32px;
+    /* border: 1px solid rgb(224, 224, 224); */
+    /* border-radius: 32px; */
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;  
-    left: 230px;
+    left: 240px;
     top: 30px;
 }
 #exchange2{
@@ -197,8 +197,13 @@ header .ticket-list li:last-child:hover{
     justify-content: center;
     align-items: center;
     position: absolute;  
-    left: 194px;
+    left: 162px;
     top: 30px;
+}
+#exchange2 i{
+    position: absolute;  
+    left: 10px;
+    top: 13px;
 }
 
 .trending{
@@ -894,13 +899,17 @@ header .ticket-list2 li:last-child{
     padding: 48px 140px;
     border-radius: 0 0 48px 48px;
 }
+/* .overlay-train{
+    background-color: red;
+} */
 .home{
     position: relative;
     top: -24px;
     margin-bottom: 16px;
-    color: white;
+    color: rgb(226, 226, 226);
     margin-top: 70px;
 }
+
 .redrail{
     text-align: center;
 }
@@ -1256,3 +1265,48 @@ span{
     
     border-bottom: 1px solid #aca8a8;
 }   
+
+
+
+
+
+
+.Account-section{
+    /* width: 100%;
+    display: flex; */
+    list-style: none;
+    /* gap: 50px; */
+    margin-left: auto;
+    display: flex;
+    gap: 12px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 20px;
+}
+.Account-section:hover{
+    background-color: rgb(235, 235, 235);
+}
+.account-tab{
+    width: 250px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 70px;
+    right: 66px;
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    padding: 18px;
+    padding-top: 0px;
+    border-radius: 20px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.Account-section:hover .account-tab{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(30px);
+}
